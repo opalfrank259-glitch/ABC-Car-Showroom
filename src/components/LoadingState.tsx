@@ -1,5 +1,6 @@
 import React from 'react';
 import { Loader2 } from 'lucide-react';
+import { useI18n } from '../i18n/i18nContext.tsx';
 
 interface LoadingStateProps {
   message?: string;
@@ -7,9 +8,12 @@ interface LoadingStateProps {
 }
 
 export const LoadingState: React.FC<LoadingStateProps> = ({
-  message = 'Loading...',
+  message,
   className = '',
 }) => {
+  const { t } = useI18n();
+  const displayMessage = message || t('common.loading');
+
   return (
     <div
       role="status"
@@ -17,7 +21,7 @@ export const LoadingState: React.FC<LoadingStateProps> = ({
       className={`flex flex-col items-center justify-center p-8 text-center text-sm text-[#14161C]/70 ${className}`}
     >
       <Loader2 className="w-6 h-6 animate-spin text-[#C8102E] mb-2" />
-      <span>{message}</span>
+      <span>{displayMessage}</span>
     </div>
   );
 };

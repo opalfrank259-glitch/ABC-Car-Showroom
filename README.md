@@ -67,21 +67,22 @@ A modern, high-performance web platform for ABC Car Showroom in Sadiqabad, Punja
 
 ---
 
-## 13-Phase Project Roadmap (PRD Schedule)
+## 14-Phase Project Roadmap (PRD Schedule)
 
-1. **Phase 1: Foundation + Supabase + Vercel** &mdash; *CURRENT (Completed)*: Plumbing, schema, RLS, Vercel routing, environment isolation, diagnostics.
-2. **Phase 2: Design system + public shell + i18n**
-3. **Phase 3: Admin auth + roles + settings**
-4. **Phase 4: Vehicle management (admin)**
-5. **Phase 5: Public inventory + vehicle pages**
-6. **Phase 6: Leads/forms/CRM**
-7. **Phase 7: Dealer tools**
-8. **Phase 8: Trust/content/local SEO**
-9. **Phase 9: Advanced vehicle experience + languages**
-10. **Phase 10: Chatbot/push/PWA**
-11. **Phase 11: Analytics/reports/CMS polish**
-12. **Phase 12: Security/performance/QA**
-13. **Phase 13: Production deployment**
+- **P1 Foundation**
+- **P2 Design system + public shell + i18n**
+- **P3 Admin auth + roles + settings**
+- **P4 Vehicle management (admin)**
+- **P5 Public inventory + vehicle pages**
+- **P6 Leads/forms/CRM**
+- **P7 Dealer tools**
+- **P8 Trust/content/local SEO**
+- **P9 Advanced vehicle experience + languages**
+- **P10 Chatbot/push/PWA**
+- **P11 Analytics/reports/CMS polish**
+- **P12 Security/performance/QA**
+- **P13 Production deployment**
+- **P14 (added) Connect Supabase + GitHub + Vercel**
 
 ---
 

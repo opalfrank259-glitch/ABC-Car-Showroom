@@ -33,6 +33,17 @@ html {
   background-color: var(--color-bg-light);
 }
 
+/* RTL Typography enhancement for Urdu & Saraiki */
+[dir="rtl"] {
+  font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'Urdu Typesetting', Tahoma, Arial, sans-serif;
+  letter-spacing: normal;
+}
+
+/* Mirror icons that imply direction (e.g. arrows) */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
