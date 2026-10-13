@@ -1,0 +1,6 @@
+{
+  "name": "ABC Car Showroom",
+  "description": "ABC Car Showroom (Sadiqabad, Punjab, Pakistan) web application - Phase 1 Foundation, Supabase schema and Vercel serverless integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
